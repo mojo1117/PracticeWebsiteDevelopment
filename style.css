@@ -1,0 +1,103 @@
+#box1 {
+    border: 5px solid;
+    font-size: 20px;
+    width: 250px;
+    height: 250px;
+    background: green;
+
+    
+
+}
+
+#box2 {
+    border: 5px solid;
+    font-size: 20px;
+    width: 250px;
+    height: 250px;
+    background: red;
+
+    
+}
+
+#box3 {
+    border: 5px solid;
+    font-size: 20px;
+    width: 250px;
+    height: 250px;
+    background: yellow;
+}
+
+/*FLOAT PRACTICE*/
+
+img {
+    float: right;
+}
+
+#section1 {
+    margin-bottom: 200px;
+}
+
+.box {
+    border: 2px solid;
+    font-size: 50px;
+    padding: 5px;
+    background: blue;
+    height: 200px;
+    width: 200px;
+
+    position: relative;
+
+    float: right;
+    top: 200px;
+    right: 50px;
+
+
+
+}
+
+
+/* ----------PSEUDOCODE-------------*/
+
+a:link {
+    color: brown;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: black
+}
+
+a:active {
+    color: blue;
+}
+
+button:hover {
+    background-color: teal;
+}
+
+/*
+li:nth-child(5) {
+    background-color: yellow;
+}
+    */
+
+li:nth-child(even) {
+    background-color: yellow;
+}
+li:nth-child(odd) {
+    background-color: blue;
+}
+
+
+/* TEXT SHADOW PRACTICE */
+
+h2{
+    text-shadow: 0px 0px 5px yellow, 0px -5px 3px red;
+}
+
+h2:hover {
+    box-shadow: 5px 5px 3px black;
+}
