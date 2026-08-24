@@ -168,3 +168,52 @@ h2:hover {
     75% {background-color: blue;}
     100% {background-color: purple;}
 }
+
+.container {
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    border: 5px solid;
+    height: 90vh;
+    /*justify-content: space-between*/
+    /*align-items: end;
+    flex-wrap: wrap;
+    align-content: space-between;
+    column-gap: 20px;
+    row-gap: 20px; */
+
+    
+
+
+
+}
+
+
+.boxx {
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    font-size: 50px;
+
+    text-align: center;
+    border-radius: 15px;
+  
+
+}
+
+#boxx1 {
+    background-color: red;
+    order: 10;
+}
+
+#boxx2 {
+    background-color: yellow;
+
+}
+
+#boxx3 {
+    background-color: green;
+}
+
+#boxx4 {
+    background-color: blue;
+}
