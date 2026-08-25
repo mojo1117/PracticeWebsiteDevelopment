@@ -1,0 +1,16 @@
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    height: 300px;
+
+}
+
+.resultbox {
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: lightgray;
+}
